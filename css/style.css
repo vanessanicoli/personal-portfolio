@@ -1,0 +1,65 @@
+/* COLORS AND COLOR CLASSES */
+:root{
+    --shadowgray: rgb(36, 35, 49);
+    --cerulean: rgb(11, 113, 137);
+    --palesky: rgb(192, 216, 224);
+}
+
+.bg-sg{
+    background-color: var(--shadowgray);
+}
+
+.text-sg{
+    color: var(--shadowgray);
+}
+
+.bg-ce{
+    background-color: var(--cerulean);
+}
+
+.text-ce{
+    color: var(--cerulean);
+}
+
+.bg-ps{
+    background-color: var(--palesky);
+}
+
+.text-ps{
+    color: var(--palesky);
+}
+
+/* FONTS */
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: var(--shadowgray);
+  color: var(--palesky);
+}
+
+/* NAVBAR */
+
+.nav-link{
+    font-size: 18px;
+    transition: 0.8s;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+    color: var(--palesky);
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon{
+    color: var(--shadowgray);
+}
