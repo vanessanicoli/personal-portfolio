@@ -103,10 +103,46 @@ body {
     border-radius: 50%;
 }
 
-#whoAmIParagraph{
+.custom-paragraph{
     text-align: justify;
 }
 /* END SECTION: CHI SONO */
+
+/* ------------------------------------------------------------------------------- */
+
+/* SECTION: PROGETTI */
+#wrapperProjects{
+    background: linear-gradient(rgba(20, 13, 79, 0.8)),url('/assets/images/coding-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card{
+    background-color: var(--palesky);
+    color: var(--deeptwilight);
+    border: 5px solid var(--richcerulean);
+    width: 300px;
+    transition: 0.8s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-img{
+    height: 300px;
+    width: 300px;
+}
+
+.btn-custom:hover{
+    /* background-color: transparent; */
+    background-color: var(--palesky);
+    border: 1px solid var(--deeptwilight);
+    color: var(--deeptwilight);
+}
+
+/* END SECTION: PROGETTI */
 
 /* ------------------------------------------------------------------------------- */
 
@@ -116,7 +152,7 @@ body {
 }
 
 .sectionWrapper{
-    height: 95vh;
+    padding: 50px 0px;
 }
 
 
