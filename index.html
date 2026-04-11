@@ -16,6 +16,9 @@
     <!-- BOOSTRAP ICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -38,10 +41,10 @@
                             <a class="nav-link text-uppercase ms-5 ms-lg-5 fw-bolder" href="#wrapperProjects">Progetti</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase ms-5 me-lg-5 fw-bolder" href="#">Photography</a>
+                            <a class="nav-link text-uppercase ms-5 me-lg-5 fw-bolder" href="#wrapperPhotography">Photography</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase ms-5 m-lg-0 fw-bolder" href="#">Contatti</a>
+                            <a class="nav-link text-uppercase ms-5 m-lg-0 fw-bolder" href="#wrapperContacts">Contatti</a>
                         </li>
                     </ul>
                 </div>
@@ -81,15 +84,19 @@
         </section>
         <!-- END SECTION: CHI SONO -->
         
-                <!-- SECTION: PROGETTI -->
+        <!-- SECTION: PROGETTI -->
         <section id="wrapperProjects" class="container-fluid sectionWrapper d-flex justify-content-center align-items-center">
             
-            <div class="row vh-75 justify-content-center align-items-center container-fluid">
+            <div class="row justify-content-center align-items-center container-fluid">
+                
+                <div class="col-12 mb-4">
+                    <h2 class="display-4 text-uppercase text-center text-rce">I miei progetti</h2>
+                </div>
                 
                 <!-- Personal Portfolio -->
                 <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mb-5 mb-md-0">
                     
-                    <div class="card">
+                    <div class="card card-custom">
                         <img src="/assets/images/cards/personal-photo-square.jpg" class="card-img-top img-fluid card-img" alt="Foto dell'autore">
                         <div class="card-body">
                             <h5 class="card-title">Personal Portfolio</h5>
@@ -103,7 +110,7 @@
                 <!-- To-Do List -->
                 <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mb-5 mb-md-0">
                     
-                    <div class="card">
+                    <div class="card card-custom">
                         <img src="/assets/images/cards/personal-photo-square.jpg" class="card-img-top img-fluid card-img" alt="Foto dell'autore">
                         <div class="card-body">
                             <h5 class="card-title">To-Do List</h5>
@@ -111,13 +118,13 @@
                             <a href="https://github.com/vanessanicoli/personal-portfolio" target="_blank" class="btn btn-custom bg-rce text-ps">Check on GitHub</a>
                         </div>
                     </div>
-
+                    
                 </div>
                 
                 <!-- Mini E-commerce -->
                 <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mb-5 mb-md-0">
                     
-                    <div class="card">
+                    <div class="card card-custom">
                         <img src="/assets/images/cards/personal-photo-square.jpg" class="card-img-top img-fluid card-img" alt="Foto dell'autore">
                         <div class="card-body">
                             <h5 class="card-title">Mini E-commerce</h5>
@@ -125,17 +132,79 @@
                             <a href="https://github.com/vanessanicoli/personal-portfolio" target="_blank" class="btn btn-custom bg-rce text-ps">Check on GitHub</a>
                         </div>
                     </div>                  
-
+                    
                 </div>
                 
             </div>
             
         </section>
         <!-- END SECTION: PROGETTI -->
+        
+        <!-- SECTION: PHOTOGRAPHY -->
+        
+        <section id="wrapperPhotography" class="container-fluid sectionWrapper d-flex justify-content-center align-items-center">
+            
+            <div class="row container justify-content-center align-items-center">
+                
+                <div class="col-12 mb-4">
+                    <h2 class="display-4 text-uppercase text-center text-rce">Photography</h2>
+                    <p class="lead text-center">Una selezione di scatti personali che rappresentano il mio modo di osservare il mondo.</p>
+                </div>
+                
+                <div id="wrapperSwiper" class="row justify-content-center align-items-center">
+                    
+                    <div class="col-12 col-md-4 d-flex justify-content-center align-items-center order-2 order-md-1">
 
+                        <div class="card">
+                            <img src="/assets/images/cards/personal-photography-square.jpg" class="card-img-top img-fluid card-img" alt="Foto dell'autore">
+                            <div class="card-body">
+                                <p class="card-text custom-paragraph">La fotografia è una mia passione personale che mi aiuta a sviluppare attenzione alla composizione e all'equilibrio visivo, competenze che ritengo utili e che applico anche nello sviluppo di interfacce web.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="col-12 col-md-8 d-flex justify-content-center align-items-center mb-4 mb-md-0 order-1 order-md-2">
+                        <!-- Swiper -->
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="/assets/images/swiper/photo-castello-aragonese.JPG" class="img-fluid">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/assets/images/swiper/photo-sun-flowers.JPG" class="img-fluid swiper-img">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/assets/images/swiper/photo-owl.JPG" class="img-fluid swiper-img">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/assets/images/swiper/photo-sunset.jpg" class="img-fluid swiper-img">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/assets/images/swiper/photo-palazzo-orologio.png" class="img-fluid swiper-img">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/assets/images/swiper/photo-village.JPG" class="img-fluid swiper-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            
+        </section>
+        
+        <!-- END SECTION: PHOTOGRAPHY -->
+        
         
         <!-- BOOTSTRAP JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
         
         <!-- CUSTOM JS -->
         <script src="./js/main.js"></script>
