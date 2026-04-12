@@ -76,7 +76,7 @@ Questo progetto rappresenta il mio portfolio personale e verrà aggiornato nel t
 
 ---
 
-**Contact**
+## Contact
 Email: nicoli.vanessa1996@gmail.com  
 LinkedIn: https://www.linkedin.com/in/vanessa-nicol%C3%AC/  
 GitHub: https://github.com/vanessanicoli
