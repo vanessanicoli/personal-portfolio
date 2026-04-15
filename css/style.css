@@ -105,6 +105,12 @@ body {
 
 .custom-paragraph{
     text-align: justify;
+    display: -webkit-box;
+    line-clamp: 5;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 15vh;
 }
 /* END SECTION: CHI SONO */
 

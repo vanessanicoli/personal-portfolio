@@ -60,6 +60,7 @@ Link: [View Live Demo](https://enchanting-swan-45701c.netlify.app/)
         │       └── cards/  
         │           └── personal-photo-square.jpg  
         │           └── personal-photography-square.jpg  
+        │           └── preview-todo-home-mobile.png 
         │       └── swiper/  
         │           └── photo-castello-aragonese.JPG  
         │           └── photo-owl.JPG  
