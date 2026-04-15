@@ -41,7 +41,7 @@ Mi appassiona trasformare idee in interfacce web moderne, responsive e intuitive
 --- 
 
 ## Live Demo
-Link: [View Live Demo](https://enchanting-swan-45701c.netlify.app/)
+Link: [View Live Demo](https://personalportfolio-vn.netlify.app/)
 
 --- 
 
